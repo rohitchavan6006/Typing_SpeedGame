@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Typing_SpeedGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <h1 class="Head">Typing Speed Game</h1> 
+     <button id="toggleTheme">🌙 Toggle Theme</button>
+
+     <div class="container">
+         <input type="text" class="textinput"/>
+
+         <div class="background-text">
+            <p  id="pg">
+              <!-- "But I must explain to you how all this mistake idea of denoucing pleasure and praising pain was born
+              and I will give you a complete account of the system, and expound the actual teachings of the great
+              explorer of the truth, the master-builder of human happiness. No one rejects, dislike,or avoids
+              pleasurer itself, because it is pleasure, but because those who do not know how to pursue
+              eationally encounter consequence that are extremely painful. Nor again is there anyone who loves or avoids 
+              pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances
+              occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us 
+              ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any 
+              right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one 
+              who avoids a pain that produces no resultant pleasure?" -->
+           </p> 
+           
+           <div class="containerin">
+               <div class="result">
+                  <div class="time">
+                       <p class="txt1">Time</p>
+                       <p class="txt2" ></p>
+                  </div>
+
+                    <div class="wpm">
+                         <p class="txt1" >WPM</p>
+                         <p class="txt2" >0</p>
+                    </div> 
+
+                    <div class="mistake">
+                         <p class="txt1">Mistake</p>
+                         <p class="txt2" >0</p>
+                    </div> 
+
+                    <div class="cpm">
+                         <p class="txt1">CPM</p>
+                         <p class="txt2" >0</p>
+                    </div>
+               </div>
+               <button>Reset</button>
+
+
+           </div>
+       </div>
+    </div>
+               <div id="timeoutMessage" style="display: none; text-align: center; margin-top: 20px; font-size: 24px; color: red; background-color: rgb(173,255,47); padding: 20px; border-radius: 60%;">
+                Your Time Is Over ⏰
+               </div>  
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+</html>
